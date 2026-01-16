@@ -12,7 +12,7 @@ df
 
 st.divider()
 
-with st.container(horizontal=True):
+with st.container(horizontal=True, height="stretch", gap="large"):
     color = st.color_picker("Elige un color para las barras", "#3475B3")
     nombre = st.toggle("Mostrar el nombre", value=True)
     sueldo = st.toggle("Mostrar sueldo en la barra")
